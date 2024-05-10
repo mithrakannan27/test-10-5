@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(233, 226, 226);
+}
+.whole{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 200px;
+    margin-left: 600px;
+}
+.pass{
+    display: flex;
+    flex-direction: column;
+}
+#box{
+    display: flex;
+    margin-bottom: 10px;
+}
+#one{
+    background-color: grey;
+    height: 10px;
+    width: 100px;
+    border-radius: 20px;
+}
+#two{
+    background-color:grey;
+    height: 10px;
+    width: 100px;
+    border-radius: 20px;
+}
+#three{
+    background-color: grey;
+    height: 10px;
+    width: 100px;
+    border-radius: 20px;
+}
+#m{
+    font-size: 25px;
+    font-weight: bolder;
+}
+#pass{
+    height: 25px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: solid rgb(21, 151, 225) 2px;
+}
+#o{
+    color: red;
+}
+#oo{
+    color:rgb(255, 221, 0) ;
+}
+#ooo{
+    color:green;
+}
